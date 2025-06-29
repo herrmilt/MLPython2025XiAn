@@ -1,0 +1,125 @@
+1. What is overtraining (overfitting) in machine learning? 
+a) Model performs well on training data but poorly on test data
+b) Model performs poorly on both training and test data
+c) Model performs well on both training and test data
+d) Model trains too fast  
+
+2. Which of the following is a sign of overtraining? 
+a) High training accuracy, high validation accuracy
+b) Low training accuracy, low validation accuracy
+c) High training accuracy, low validation accuracy
+d) Low training accuracy, high validation accuracy  
+
+3. What does "epoch" mean in neural network training? 
+a) One pass through the entire training dataset
+b) One pass through the validation set
+c) One layer in a deep network
+d) The time it takes to train a model  
+
+4. Overfitting can be reduced by: 
+a) Increasing model complexity
+b) Decreasing the amount of training data
+c) Decreasing model complexity
+d) Training for more epochs   
+
+5. What is backpropagation used for? 
+a) Initializing weights in a neural network
+b) Calculating the loss of a model
+c) Calculating gradients for using gradient descent
+d) Normalizing input features  
+
+6. Why is it bad if a model achieves 100% accuracy on training data but only 50% on validation data?  
+a) The model is undertrained
+b) The model is too simple
+c) The model has overfit
+d) The model is not using enough features   
+
+7. What is the purpose of a validation set in machine learning?  
+a) To train the model from scratch
+b) To test the final model performance
+c) To test if the model is overfitting
+d) To collect new training data   
+
+8. Which of the following best describes what happens during overtraining?  
+a) The model memorizes the training data
+b) The model learns general patterns
+c) The model ignores noise in the data
+d) The model uses regularization effectively   
+
+9. What is the relationship between overtraining and model capacity?  
+a) Lower capacity always causes overtraining
+b) Higher capacity reduces overtraining
+c) Higher capacity increases the risk of overtraining
+d) Capacity has no effect on overtraining   
+
+10. What is the role of an optimizer in a neural network?   
+a) Initializes weights
+b) Evaluates model accuracy
+c) Updates weights to minimize loss
+d) Normalizes inputs  
+
+11. What is undertraining in machine learning? 
+a) Model performs well on training data but poorly on test data
+b) Model performs poorly on both training and test data
+c) Model performs well on both training and test data
+d) Model trains too fast  
+
+12. Which of the following could cause undertraining? 
+a) Too many training examples
+b) Too few training epochs
+c) Too much regularization
+d) Too many features  
+
+13. Which of the following actions is most likely to help an undertrained model?  
+a) Reduce model size
+b) Decrease learning rate
+c) Increase model complexity
+d) Add dropout   
+
+14. What is the primary goal of gradient descent in machine learning?  
+a) To increase model complexity
+b) To minimize the loss function
+c) To maximize accuracy
+d) To reduce the number of features   
+
+15. Which of the following best describes the gradient in gradient descent?  
+a) The slope of the accuracy curve
+b) The direction of steepest increase of the loss function
+c) The direction of steepest decrease of the loss function
+d) The average value of the weights   
+
+16. In gradient descent, what does the "learning rate" control?  
+a) The number of epochs
+b) The size of the steps taken toward minimizing the loss
+c) The batch size used in training
+d) The number of hidden layers in a neural network   
+
+17. What happens if the learning rate is too large?  
+a) Training becomes very slow
+b) The model will always converge faster
+c) The algorithm may overshoot the minimum and fail to converge
+d) Regularization becomes unnecessary   
+
+18. What is the basic building block of a neural network called?  
+a) Layer
+b) Neuron
+c) Weight
+d) Bias   
+
+19. Which of the following best describes a classic MLP neural network (feedforward)?  
+a) Data flows in both directions through the network
+b) The network uses feedback loops to improve accuracy
+c) Data moves forward through layers without cycles or loops
+d) It is only used for unsupervised learning   
+
+20. What is the role of an activation function in a neural network?  
+a) To normalize input data
+b) To initialize weights
+c) To introduce non-linearity into the model
+d) To calculate the loss   
+
+21. What is the purpose of the loss function in training a neural network?  
+a) To determine how fast the model should train
+b) To measure how well the model is performing
+c) To initialize the weights
+d) To control the number of epochs   
