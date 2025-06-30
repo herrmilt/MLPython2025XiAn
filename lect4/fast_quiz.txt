@@ -1,0 +1,160 @@
+1. What is the main purpose of a convolutional layer in a CNN? 
+A) To reduce the number of parameters using weight sharing
+B) To apply pooling operations
+C) To classify final outputs
+D) To randomly drop neurons during training   
+
+
+2. Which of the following is NOT a typical component of a CNN architecture? 
+A) Fully Connected Layer
+B) ReLU Activation Function
+C) Recurrent Layer
+D) Max Pooling Layer   
+
+
+3: What does the ReLU activation function do in a CNN? 
+A) Squashes values between 0 and 1
+B) Returns the maximum value across a region
+C) Sets all negative activations to zero
+D) Normalizes input data   
+
+
+4: What is the role of a pooling layer in a CNN? 
+A) Increase the spatial dimensions of the feature maps
+B) Detect features in the input image
+C) Reduce spatial dimensions and computational complexity
+D) Apply filters to detect edges   
+
+
+5: Which layer in a CNN is typically responsible for classification? 
+A) Convolutional layer
+B) Pooling layer
+C) Fully connected layer
+D) Dropout layer   
+
+
+6: What is the main advantage of using a pretrained neural network? 
+A) Faster training from scratch
+B) Reduced model complexity
+C) Leveraging features learned from large datasets
+D) Simpler architecture design   
+
+
+7:  Which of the following tasks benefits most from transfer learning using a pretrained model? 
+A) Training a small CNN on random noise
+B) Classifying images when only a few labeled examples are available
+C) Training a model with a very large custom dataset
+D) Building a new architecture from scratch   
+
+
+8: Which of the following models is NOT typically used as a pretrained model for image classification? 
+A) ResNet
+B) VGG16
+C) AlexNet
+D) K-Means   
+
+
+9. In transfer learning, what does "fine-tuning" refer to? 
+A) Changing the input size of the model
+B) Training only the newly added layers
+C) Unfreezing some layers of the pretrained model and retraining them
+D) Removing all convolutional layers   
+
+
+10. Which layer(s) of a pretrained CNN are typically replaced or retrained when adapting it to a new task? 
+A) All convolutional layers
+B) The pooling layers
+C) The fully connected (dense) layers at the top
+D) The normalization layers   
+
+
+11. What is the purpose of freezing layers in a pretrained network during transfer learning? 
+A) To reduce the number of parameters in the model
+B) To prevent overfitting by reducing computation
+C) To keep the pretrained weights fixed and not update them during training
+D) To speed up inference time   
+
+
+12. Which of the following is a common source of pretrained models in computer vision? 
+A) CIFAR-10
+B) MNIST
+C) ImageNet
+D) Fashion-MNIST   
+
+
+13. Which of the following libraries/frameworks allows easy access to pretrained models? 
+A) NumPy
+B) Pandas
+C) Torch
+D) Matplotlib   
+
+
+14. What is the typical workflow when using a pretrained CNN for a new classification task? 
+A) Train a new model from scratch and compare performance
+B) Replace the final layer, freeze earlier layers, and train only the new layers
+C) Use the model without any modification
+D) Remove all layers except the first convolutional layer   
+
+
+15. What is the primary purpose of data augmentation in machine learning? 
+A) To increase the size of the training dataset artificially
+B) To reduce the number of model parameters
+C) To speed up inference time
+D) To visualize the training process   
+
+
+16. hich of the following is NOT a common data augmentation technique for images? 
+A) Random cropping
+B) Color jittering
+C) Batch normalization
+D) Horizontal flipping   
+
+
+17. Why is data augmentation useful during training? 
+A) It makes the model memorize the training data better
+B) It helps the model generalize to unseen data by increasing diversity
+C) It reduces the number of epochs needed for training
+D) It improves test accuracy without affecting training   
+
+
+18. Which of the following techniques can help make a model robust to changes in lighting conditions? 
+A) Rotation
+B) Brightness adjustment
+C) Zooming
+D) Padding   
+
+
+19. When should data augmentation typically be applied? 
+A) During both training and testing phases
+B) Only during the testing phase
+C) Only during the training phase
+D) Before collecting the dataset   
+ 
+
+20. Which of the following is a benefit of using random cropping as an augmentation method? 
+A) It increases image resolution
+B) It helps the model focus on different parts of the image
+C) It prevents overfitting by reducing image quality
+D) It removes noise from images   
+
+  
+
+21. Which of the following augmentations would most likely help a model recognize objects at different scales? 
+A) Vertical flipping
+B) Grayscale conversion
+C) Resizing
+D) Zooming   
+ 
+
+22. Which statement best describes online data augmentation? 
+A) Augmentations are applied once before training begins
+B) Augmentations are applied manually by the user
+C) Augmentations are applied on-the-fly during training
+D) Augmentations are applied only to test data   
+ 
+
+23. Which of the following is a potential drawback of excessive data augmentation? 
+A) It may slow down training and introduce unrealistic samples
+B) It always improves validation accuracy
+C) It reduces model complexity
+D) It eliminates the need for regularization   
