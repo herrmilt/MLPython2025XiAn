@@ -1,0 +1,201 @@
+1. What is the primary goal of keypoint detection in pose estimation tasks?
+A) To classify an image into object categories
+B) To detect bounding boxes around objects
+C) To identify specific anatomical or structural points (e.g., joints or facial landmarks)
+D) To segment images into semantic regions   
+
+
+2. Which of the following is NOT a typical application of CNN-based keypoint detection?
+A) Facial expression recognition
+B) Autonomous driving (pedestrian pose)
+C) Image compression
+D) Action recognition   
+ 
+
+3. In CNN-based keypoint detection, what is typically used to represent each keypoint during training?
+A) A scalar value
+B) A one-hot vector
+C) A 2D float vector
+D) An RGB color code   
+ 
+
+4. Which loss function is commonly used for training CNNs to keypoint detection?
+A) Cross-entropy loss
+B) Mean Squared Error (MSE)
+C) Hinge loss
+D) Kullback-Leibler divergence   
+
+
+5. What defines a single-object detection  task?
+A) Only one class of object exists in the dataset
+B) Each image contains exactly one instance of an object
+C) The model runs in real-time
+D) The detector uses a single convolutional layer   
+
+
+6. Which of the following is NOT a typical application of single-object detection?
+A) Face detection in passport photos
+B) License plate detection in controlled environments
+C) Detecting multiple pedestrians in street scenes
+D) Logo detection in product packaging   
+
+
+7. In single-object detection, what is the usual output format of the model?
+A) Multiple bounding boxes and class labels
+B) A single bounding box and class label (or no background class)
+C) A segmentation mask only
+D) A 3D bounding box in camera coordinates   
+ 
+
+8. Why might single-object detection models be simpler than general object detection models?
+A) They don’t require GPU acceleration
+B) They can ignore background regions and skip NMS
+C) They always use grayscale images
+D) They don't need training data   
+
+
+9. What kind of loss function would you likely use if your model directly regresses the coordinates of a single bounding box?
+A) Cross-entropy loss
+B) Mean Squared Error (MSE) 
+C) Focal loss
+D) Binary cross-entropy   
+   
+
+10. In which scenario would using a keypoint detection model  instead of a bounding box be more appropriate in a single-object setup?
+A) When the object must be cropped tightly
+B) When orientation or internal structure is important (e.g., face alignment)
+C) When speed is critical
+D) When the object is blurry   
+
+
+11. What is the main purpose of an autoencoder in deep learning?
+A) To classify images into categories
+B) To generate new data similar to the training set
+C) To learn a compressed representation of input data
+D) To detect objects in images   
+
+
+12. An autoencoder consists of which two main components?
+A) Generator and Discriminator
+B) Encoder and Decoder
+C) Classifier and Regressor
+D) Feature Extractor and Region Proposal Network   
+
+
+13. In a convolutional autoencoder, what type of layers are typically used in the encoder ?
+A) Transposed convolutional layers
+B) Fully connected layers only
+C) Convolutional layers with strided convolutions
+D) Recurrent layers   
+
+
+14. What is the role of the bottleneck layer  in an autoencoder?
+A) To increase the size of the input
+B) To store the most important features in a compact form
+C) To upscale the image
+D) To apply dropout regularization   
+
+
+15. Which operation does the decoder  usually perform when reconstructing the input?
+A) Max pooling
+B) Strided convolution
+C) Transposed convolution (also known as deconvolution)
+D) Batch normalization   
+
+
+16. What is the loss function  commonly used in training autoencoders for image reconstruction?
+A) Cross-entropy loss
+B) Hinge loss
+C) Mean Squared Error (MSE)
+D) Focal loss   
+
+
+17. Which of the following is NOT a typical use case of autoencoders?
+A) Denoising images
+B) Image compression
+C) Image classification
+D) Object detection  
+ 
+
+18. Why might you use a convolutional autoencoder  instead of a fully connected one for images?
+A) It trains faster without using GPUs
+B) It better preserves spatial hierarchies and reduces parameters
+C) It always gives perfect reconstructions
+D) It avoids overfitting completely   
+
+
+19. What happens if the bottleneck of an autoencoder is too small?
+A) The model will reconstruct the input very accurately
+B) The model may not capture enough information to reconstruct the input well
+C) The model will overfit easily
+D) The model will generate new realistic images   
+
+
+20. What is the main difference between a standard autoencoder and a Variational Autoencoder (VAE)?
+A) VAEs use more convolutional layers
+B) VAEs learn a probabilistic distribution over the latent space
+C) VAEs always produce better image reconstructions
+D) VAEs are trained using classification loss   
+
+
+21. In a VAE, what does the encoder output instead of a fixed vector?
+A) A single scalar value
+B) A probability distribution (typically Gaussian) defined by mean and variance
+C) A binary mask
+D) A class label   
+
+
+22. Which technique is used in VAEs to sample from the latent distribution during training?
+A) Softmax sampling
+B) Gumbel-softmax trick
+C) Reparameterization trick
+D) Top-k sampling   
+
+
+23. Which loss function is used in VAEs to ensure the learned latent space follows a specific distribution (e.g., standard normal)?
+A) Binary cross-entropy
+B) Kullback-Leibler (KL) divergence
+C) Mean Absolute Error
+D) Hinge loss   
+ 
+
+24. Why is the latent space in VAEs often assumed to follow a standard normal distribution?
+A) To make the model run faster
+B) To simplify decoding and allow smooth interpolation between samples
+C) To reduce the number of parameters
+D) To avoid using transposed convolutions   
+
+
+25. What are the two main components of a GAN?
+A) Encoder and Decoder
+B) Generator and Discriminator
+C) Feature Extractor and Classifier
+D) Transformer and Attention Module   
+
+
+26. What is the goal of the generator  in a GAN?
+A) To classify real images
+B) To distinguish between real and fake images
+C) To generate images that look like they come from the training data
+D) To compress input images   
+ 
+
+27. What is the role of the discriminator  in a GAN?
+A) To generate new images
+B) To reconstruct input images
+C) To determine whether an image is real or generated
+D) To encode images into latent vectors   
+
+
+28. Which loss function is most commonly used in standard GANs for training the discriminator and generator?
+A) Mean Squared Error (MSE)
+B) Cross-Entropy Loss
+C) Hinge Loss
+D) Kullback-Leibler Divergence   
+
+
+29. Which of the following is a common challenge when training GANs?
+A) Easy and stable convergence
+B) Mode collapse, where the generator produces limited varieties of outputs
+C) High interpretability of latent space
+D) Fast inference speed   
