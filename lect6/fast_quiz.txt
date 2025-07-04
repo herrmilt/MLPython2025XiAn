@@ -1,0 +1,96 @@
+1. What is a time series? 
+A) A sequence of data points indexed in chronological order
+B) A collection of random variables
+C) A set of categorical features
+D) A type of supervised learning algorithm   
+
+
+2. Which of the following is a common goal in time series analysis? 
+A) Classification of images
+B) Predicting future values based on past observations
+C) Clustering unlabeled data
+D) Reducing dimensionality of text data  
+
+
+3. What is seasonality in a time series? 
+A) Random noise in the data
+B) A repeating pattern over a fixed period (e.g., daily, weekly, yearly)
+C) A gradual increase or decrease in values
+D) A sudden spike in values   
+
+  
+4. What is the purpose of the autocorrelationi function (ACF) plot in time series analysis? 
+A) To visualize trends
+B) To identify lagged correlations
+C) To smooth the data
+D) To detect outliers   
+
+
+5. Which technique divides a time series dataset into training and test sets where the test set comes after the training set? 
+A) Stratified sampling
+B) Random split
+C) Walk-forward validation
+D) Cross-validation   
+
+
+6.What does "lag" refer to in time series processing? 
+A) The difference between predicted and actual values
+B) The number of intervals between two data points
+C) The time delay between cause and effect in the data
+D) The previous value(s) of the time series used as input   
+
+
+7. What makes RNNs suitable for processing sequential data? 
+A) They use convolutional layers to extract features
+B) They share weights across space
+C) They maintain a hidden state that captures information from previous time steps
+D) They are trained using unsupervised learning   
+
+
+8. Which of the following is a limitation of basic RNNs? 
+A) They cannot handle variable-length sequences
+B) They suffer from vanishing gradient problem
+C) They require labeled data for training
+D) They can only be used for classification tasks   
+
+
+9.Which variant of RNN was introduced to solve the vanishing gradient problem? 
+A) LSTM
+B) CNN
+C) DBN
+D) MLP   
+
+
+10. What components are found in an LSTM cell? 
+A) Input gate, Forget gate, Output gate
+B) Convolution layer, Pooling layer
+C) Encoder and Decoder
+D) Activation function and Loss function   
+
+
+11. What is the purpose of the "hidden state" in an RNN? 
+A) To store gradients during backpropagation
+B) To hold temporary memory of previous inputs
+C) To initialize the weights of the network
+D) To compute the loss function   
+
+
+12. Which of the following best describes "Backpropagation Through Time (BPTT)"? 
+A) Training RNNs using reinforcement learning
+B) Applying backpropagation at each time step while unrolling the RNN
+C) Training RNNs using random weight initialization
+D) Using CNNs for time series prediction   
+  
+
+13. Which task is not  typically suited for RNNs? 
+A) Language modeling
+B) Sentiment analysis
+C) Object detection in images
+D) Machine translation   
+ 
+
+14. What is the purpose of unrolling an RNN during training? 
+A) To increase model depth
+B) To apply convolutional filters
+C) To unfold the network across time steps for backpropagation
+D) To reduce training time   
